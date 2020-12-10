@@ -1,10 +1,10 @@
 import "./App.css";
-import Sidebar from "./Components/Sidebar";
-
+import Carousel from "./Components/Carousel";
+import React from "react";
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Carousel />
     </div>
   );
 }
